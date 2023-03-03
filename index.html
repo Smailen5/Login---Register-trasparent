@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--link per far funzionare i font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!--link logo-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><!--sezione logo-->
+            <span class="material-symbols-outlined">home_app_logo</span>
+            Logo
+        </h2>
+        <nav class="navigation"><!--da qui in poi ce il menu con il bottone-->
+            <a href="#" id="">Casa XD</a>
+            <a href="#" id="">Ma chi sono</a>
+            <a href="#" id="">Servizietto?</a>
+            <a href="#" id="">Non contattami</a>
+            <button class="btnLogin-popup">Accedi</button>
+        </nav>
+    </header>
+
+    <div class="wrapper"><!--form per accedere-->
+        <div class="form-box login">
+            <h2>Accedi</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="remember-forgot"><!--sezione checkbox e password dimenticata-->
+                    <label><input type="checkbox">Ricordami</label>
+                    <a href="#">Password dimenticata?</a>
+                </div>
+                <button type="submit" class="btn">Accedi</button>
+                <div class="login-register">
+                    <p>Non hai un account? <a href="#" class="register-link">Registrati</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--link per recuperare le icone, ricorda di salvarlo-->
+    <script src="https://kit.fontawesome.com/b4ac31209a.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
