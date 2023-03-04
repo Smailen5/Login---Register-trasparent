@@ -36,12 +36,16 @@
             <h2>Accedi</h2>
             <form action="#">
                 <div class="input-box">
-                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
                     <input type="email" required>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
-                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
                     <input type="password" required>
                     <label>Password</label>
                 </div>
@@ -56,9 +60,51 @@
                 </div>
             </form>
         </div>
+
+        <!--form registrati-->
+        
+        <div class="form-box register">
+            <h2>Registrati</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <label>Nome</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <!--sezione checkbox e password dimenticata-->
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Accetta termini & condizioni</label>
+
+                </div>
+                <button type="submit" class="btn">Registrati</button>
+                <div class="login-register">
+                    <p>Hai gia un account? <a href="#" class="login-link">Accedi</a></p>
+                </div>
+            </form>
+        </div>
+
+
     </div>
     <!--link per recuperare le icone, ricorda di salvarlo-->
     <script src="https://kit.fontawesome.com/b4ac31209a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
