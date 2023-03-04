@@ -138,7 +138,6 @@ header {
     position: absolute;
     transition: none;
     transform: translateX(420px);
-    
 }
 
 .wrapper.active .form-box.register {
@@ -158,15 +157,15 @@ header {
     color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom-left-radius: 20px;
     cursor: pointer;
-
+    z-index: 100;
 }
 
 /*icona x*/
 .fa-solid fa-xmark {
     text-align: center;
-
 }
 
 /*testo accedi all'interno del form*/
@@ -273,7 +272,6 @@ header {
     color: #162938;
     text-align: center;
     font-weight: 500;
-
 }
 
 /*link registrati e accedi*/
@@ -286,3 +284,4 @@ header {
 .login-register a:hover {
     text-decoration: underline;
 }
+
