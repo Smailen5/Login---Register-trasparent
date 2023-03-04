@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*aggiungi colori in variabile
+:root var(--colore)
+*/
+
 body {
     display: flex;
     justify-content: center;
@@ -147,6 +151,7 @@ header {
     top: -5px;
 }
 
+/*non funziona se non inserisci @ nel form*/
 /*contenitore di input email e password*/
 .input-box input {
     width: 100%;
