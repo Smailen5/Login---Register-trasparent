@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +39,7 @@ header {
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    text-transform: uppercase;
 }
 
 /*link menu nav*/
@@ -202,4 +195,5 @@ header {
     height: 35px;
     border-radius: 10px;
     border: transparent;
+    margin-bottom: 15px;
 }
