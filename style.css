@@ -105,7 +105,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*overflow: hidden;*/
+    overflow: hidden;*/
 }
 
 .wrapper .form-box {
@@ -114,10 +114,13 @@ header {
 }
 
 .wrapper .form-box.login {
-    display: none;
+    /*display: none;*/
 }
 
-.wrapper .form-box.register {}
+.wrapper .form-box.register {
+    position: absolute;
+    transform: translateX(420px);
+}
 
 /*contenitore icona x*/
 .wrapper .icon-close {
