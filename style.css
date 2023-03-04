@@ -105,11 +105,40 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*overflow: hidden;*/
 }
 
 .wrapper .form-box {
     width: 100%;
     padding: 40px;
+}
+
+.wrapper .form-box.login {
+    display: none;
+}
+
+.wrapper .form-box.register {}
+
+/*contenitore icona x*/
+.wrapper .icon-close {
+    font-size: 2.5em;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+
+}
+
+/*icona x*/
+.fa-solid fa-xmark {
+    text-align: center;
+
 }
 
 /*testo accedi all'interno del form*/
@@ -119,7 +148,7 @@ header {
     text-align: center;
 }
 
-/*linea estetica sotto le caelle input*/
+/*linea estetica sotto le celle input*/
 .input-box {
     position: relative;
     width: 100%;
@@ -187,13 +216,45 @@ header {
 /*link password dimenticata*/
 .remember-forgot a {
     color: #162938;
+    text-decoration: none;
 }
 
-/*bottone accedi del form*/
+/*aggiungi underline al passaggio del mouse*/
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/*testo accedi bottone del form*/
 .btn {
     width: 100%;
-    height: 35px;
+    height: 45px;
+    background: #162938;
+    color: #fff;
+    font-weight: 500;
     border-radius: 10px;
-    border: transparent;
-    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-bottom: 35px;
+}
+
+/*non hai un account?*/
+.login-register {
+    font-size: 1em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+/*link registrati e accedi*/
+.login-register a {
+    font-weight: 600;
+    color: #162938;
+    text-decoration: none;
+}
+
+.login-register a:hover {
+    text-decoration: underline;
 }
